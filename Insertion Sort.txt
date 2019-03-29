@@ -1,0 +1,38 @@
+Insertion Sort Algorithm:
+
+#CODE
+    int currIndex; //to point to the current index
+    for(int i = 0; i < length; ++i) {
+        currIndex = i;
+        for(int j = i - 1; j >= 0; --j) {
+            if(nums[currIndex] < nums[j]) {
+                int tmp = nums[currIndex];
+                nums[currIndex] = nums[j];
+                nums[j] = tmp;
+                --currIndex;
+            }
+        }
+    }
+
+#NOTE
+    - We compare every element to the left
+    - After 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

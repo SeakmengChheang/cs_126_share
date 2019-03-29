@@ -1,0 +1,24 @@
+Selection Sort:
+
+#CODE:
+	int indSmallest; //to hold the smallest value's index
+	for (int i = 0; i < length; i++)
+	{
+		indSmallest = i; //assume that the first is the smallest
+		for (int j = i + 1; j < length; j++) //find the smallest in range i to length - 1
+			if (arr[indSmallest] > arr[j])
+				indSmallest = j; //assign new index of the smallest value
+
+		//Swap the smallest to index i
+		int tmp = arr[indSmallest];
+		arr[indSmallest] = arr[i];
+		arr[i] = tmp;
+		//end Swap
+	} //end for-loop
+
+#NOTE:
+	- Every pass, we'll get the smallest or biggest one on the most left side
+
+#ALGORITHM:
+	- Find the smallest value one
+	- Swap it with the most left index
