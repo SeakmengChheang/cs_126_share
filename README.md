@@ -1,7 +1,7 @@
 # cs_126_share
 
 #NOTE:
-  - This is a share repository for CS_126 class in Paragon International University.
+  - This is a share repository for CS_126 class at Paragon International University.
   - I bet you'll not interesting in this repo, if you're not in this class. SO DO NOT CLONE IT.
   - Everyone in CS_126 class can contribute their works which they want to share to this repo.
     + By installing git command.
