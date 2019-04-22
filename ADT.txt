@@ -1,0 +1,3 @@
+Stack (Last In First Out)
+Queue (First In First Out)
+Linked List (Sequential)
